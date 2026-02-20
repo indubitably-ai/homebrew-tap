@@ -1,9 +1,9 @@
 cask "indubitably" do
-  version "0.1.8"
+  version "0.1.9"
   arch arm: "aarch64", intel: "x86_64"
 
-  sha256 arm:   "59c2657a827792a883f6437d45523ca68c8696d01aea59b220fc5fb08e60412f",
-         intel: "83d12e6696d0f9ee0787a8cd52b7b272575bf22ae03da8e5591fd9384638a496"
+  sha256 arm:   "b88f24bf3c665e6fdecee2bc01290b6aa2d2c29b26ac06e4245e48e82f22ec33",
+         intel: "bb1b22365ea5398136a0ccd368c30803a406a928fc3c63ba9a45eb746906edc3"
 
   url "https://downloads.indubitably.ai/cli/indubitably/#{version}/indubitably-#{arch}-apple-darwin.tar.gz"
   name "Indubitably CLI"
